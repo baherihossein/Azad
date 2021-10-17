@@ -6,19 +6,21 @@
     
  .footer{
 margin: auto;
-height: 40px;
-background-color: lightgrey;
+height: 50px;
+background-color: #868a82;
 padding: 10px;
 margin: auto;
-border-radius: 5px;
-box-shadow:5px 5px 6px gray ;
+
+
 }
 
 .footer img{ width: 30px;
 height: 30px;
+}
+.footer a{text-decoration: none;
+color: white;
 
 }
-
 .button{
     font-size: 20px;
 padding: 10px;
@@ -33,19 +35,19 @@ text-decoration: none;
 color: rgb(155, 35, 35)
 }
 
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #868a82;
 }
 
-li {
+li{
     float: right;
 }
 
-    li a {
+    li a{
         display: block;
         color: white;
         text-align: center;
@@ -54,7 +56,7 @@ li {
     }
 
         li a:hover {
-            background-color: #111111;
+            background-color: #cac7c7;
         }
         .originalPic{            
             width: 100%;            
@@ -65,6 +67,14 @@ li {
             background-size: cover;
             
         }
-
         .menu{ direction: rtl;
+            color: rgb(105, 27, 27);
+
         }
+#navBar{border: 1px solid rgb(105, 27, 27);
+
+
+}
+.footer{font-size: 17px;
+    border: 1px solid rgb(105, 27, 27);
+   

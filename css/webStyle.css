@@ -33,7 +33,6 @@ text-decoration: none;
 color: rgb(155, 35, 35)
 }
 
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -43,7 +42,7 @@ ul {
 }
 
 li {
-    float: left;
+    float: right;
 }
 
     li a {
@@ -57,5 +56,15 @@ li {
         li a:hover {
             background-color: #111111;
         }
+        .originalPic{            
+            width: 100%;            
+        }
+        #orginal{
+            height: 350px !important;
+            background-image: url('../Images/farzaslider-final1.jpg');
+            background-size: cover;
+            
+        }
 
-
+        .menu{ direction: rtl;
+        }

@@ -1,7 +1,8 @@
 /*test*/
 /*test*/
 .content{ margin: auto;
-    border-radius: 10px;
+    border-radius: 2px;
+    border: 5px solid  #868a82;
 }
     
  .footer{
@@ -71,7 +72,6 @@ li{
             color: rgb(105, 27, 27);
 
         }
-#navBar{border: 1px solid rgb(105, 27, 27);
 
 
 }

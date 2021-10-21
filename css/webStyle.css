@@ -81,8 +81,17 @@ li{
    .tazeTarin{ text-align: center;
     background-color: #cac7c7 ;
     color: rgb(105, 27, 27);
-    border: 2px solid gray;
-    margin: auto;}
-   
-
+    border: 2px solid rgb(156, 156, 156);
+    margin: auto;
+}
+    .matlab1{border: 2px solid rgb(156, 156, 156);
+    width: 150px;
+height: 150px;}
+.matlab2{border: 2px solid rgb(156, 156, 156);
+    width: 150px;
+height: 150px;}
+.matlab3{border: 2px solid rgb(156, 156, 156);
+    width: 150px;
+height: 150px;
+}
    

@@ -74,12 +74,18 @@ li{
         }
 
 
-}
+
 .footer{font-size: 17px;
     border: 1px solid rgb(105, 27, 27);}
 
     .tazetari{text-align: center;
-    margin: auto;}
+    margin:0;
+margin: auto;
+width: 50%;
+position: absolute;
+padding: 0;
+left: 0;
+right: 0;}
 
    .taze-list{list-style-type: none;
         margin-top: 20px;
@@ -95,3 +101,23 @@ li{
         margin: auto;
         }
     .matn{text-align: justify;}
+    .video{background-color: lightgrey;
+        margin-top: 0;
+        height: 400px;
+
+    }
+    *{
+        box-sizing: border-box;
+        }
+        .container{
+        width: 800px;
+        }
+        input,select,textarea{
+        width: 100%;
+        margin: 0 0 10px 0;
+        padding: 10px;
+        }
+        .btn1{
+        background-color: green;
+        color: #fff;
+        }

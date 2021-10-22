@@ -78,20 +78,20 @@ li{
 .footer{font-size: 17px;
     border: 1px solid rgb(105, 27, 27);}
 
-   .tazeTarin{ text-align: center;
-    background-color: #cac7c7 ;
-    color: rgb(105, 27, 27);
-    border: 2px solid rgb(156, 156, 156);
-    margin: auto;
-}
-    .matlab1{border: 2px solid rgb(156, 156, 156);
-    width: 150px;
-height: 150px;}
-.matlab2{border: 2px solid rgb(156, 156, 156);
-    width: 150px;
-height: 150px;}
-.matlab3{border: 2px solid rgb(156, 156, 156);
-    width: 150px;
-height: 150px;
-}
-   
+    .tazetari{text-align: center;
+    margin: auto;}
+
+   .taze-list{list-style-type: none;
+        margin-top: 20px;
+        padding: 20px;
+        text-align: center;
+        background-color: lightgray;
+        height: 300px;
+        text-align: center;
+        margin: auto;}
+    .taze-item{width: 150px;
+        padding: 25px;
+        display: inline-block;
+        margin: auto;
+        }
+    .matn{text-align: justify;}

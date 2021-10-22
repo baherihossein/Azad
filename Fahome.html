@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/webStyle.css" rel="stylesheet" />
-
+    <link href="css/font.css" rel="stylesheet" />
 </head>
 <body dir="rtl">
-    
+
     <div class="header">
         <div class="menu">
             <ul>
-                <li><a href="">مهدی آزادواری</a></li>
+                <li><a href=""><b class="brand">مهدی آزادواری</b></a></li>
                 <li><a href="">صفحه اصلی</a></li>
                 <li><a href="">بلاگ</a></li>
                 <li><a href="">اینستاگرام</a></li>
@@ -25,67 +25,83 @@
     </div>
 
     <div class="content">
-        <div id="orginal" >
+        <div id="orginal">
         </div>
-       
-        </div>
+
     </div>
 
-    <div class="footer">
-        <ul>
-        <li><a href="">انتشارات</a></li>
-        <li><a href="">سوابق</a></li>
-        <li><a href="">فعالیت های آموزشی</a></li>
-        <li><a href="">بیوگرافی</a></li>
-    </ul>
+
+    <div class="tazeTarin" style="text-align: center;" dir="auto">
+        <button class="tablink" onclick="openPage('Home', this, '#ea5050')">انتشارات</button>
+        <button class="tablink" onclick="openPage('News', this, '#41ac40')" >سوابق</button>
+        <button class="tablink" onclick="openPage('Contact', this, '#394eb1')">فعالیت های آموزشی</button>
+        <button class="tablink" onclick="openPage('About', this, '#ed9f25')" id="defaultOpen">بیوگرافی</button>
+
+        <div id="Home" class="tabcontent">
+            <h3>Home</h3>
+            <p>Home is where the heart is..</p>
+        </div>
+
+        <div id="News" class="tabcontent">
+            <h3>News</h3>
+            <p>Some news this fine day!</p>
+        </div>
+
+        <div id="Contact" class="tabcontent">
+            <h3>Contact</h3>
+            <p>Get in touch, or swing by for a cup of coffee.</p>
+        </div>
+
+        <div id="About" class="tabcontent">
+            <h3>About</h3>
+            <p>Who we are and what we do.</p>
+        </div>
+
+        <script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+        </script>
     </div>
-    <div class="tazeTarin" style="text-align: center;" dir="auto" >
-        <h2 class="titr">تازه ترین مطالب</h2>
-        <ul class="taze-list">
-<li class="taze-item">
-    <h3 class="jjj">مطلب اول</h3>
-    <p class="matn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minima temporibus quidem nobis facilis, nihil sit soluta eius voluptatem aperiam totam? Vero beatae quasi perspiciatis ex minima magnam, sequi nihil.</p>
-</li>
-
-<li class="taze-item">
-    <h3 class="jjj">مطلب دوم</h3>
-    <p class="matn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores ipsum omnis atque rem consequuntur et aut nostrum distinctio voluptas similique asperiores ipsam tempora adipisci quo voluptatibus necessitatibus, dolor libero!</p>
-</li>
-
-<li class="taze-item">
-    <h3 class="jjj">مطلب سوم</h3>
-    <p class="matn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates nemo quidem aspernatur error autem expedita, aliquid dolorem sint quae beatae accusamus dolores eveniet unde labore omnis consequuntur aperiam. Asperiores!</p>
-</li>
 
 
-        </ul>
-</div>
-
-
-<div class="video">
-    <h2>ویدیو ها</h2>
+    <div class="video">
+        <h2>ویدیو ها</h2>
 
 
 
-</div>
-<h1>تماس با ما</h1>
-<div class="container">
-<form action="/action_page.php" method="post">
-<label for="fname">نام</label>
-<input type="text" id="fname" name="firstname" placeholder="Your name..">
-<label for="lname">نام خانوادگی</label>
-<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-<label for="city"> شهر </label>
-<select id=" city " name=" city ">
-<option value="shiraz"> شیراز </option>
-<option value="tehran"> تهران </option>
-<option value="ahvaz"> اهواز </option>
-</select>
-<label for="subject">Subject</label>
+    </div>
+    <h1>تماس با ما</h1>
+    <div class="container">
+        <form action="/action_page.php" method="post">
+            <label for="fname">نام</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">نام خانوادگی</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="city"> شهر </label>
+            <select id=" city " name=" city ">
+                <option value="shiraz"> شیراز </option>
+                <option value="tehran"> تهران </option>
+                <option value="ahvaz"> اهواز </option>
+            </select>
+            <label for="subject">Subject</label>
 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-<input class="btn1" type="submit" value="Submit">
-</form>
-</div>
+            <input class="btn1" type="submit" value="Submit">
+        </form>
+    </div>
 
 
 </body>

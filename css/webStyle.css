@@ -1,42 +1,54 @@
 /*test*/
 /*test*/
-.content{ margin: auto;
+body{
+    width:100%;
+    padding:0;
+    margin:0;
+    font-family:IranSans;
+    font-size: 15px;
+}
+.content {
+    margin: auto;
     border-radius: 2px;
-    border: 5px solid  #868a82;
 }
-    
- .footer{
-margin: auto;
-height: 50px;
-background-color: #868a82;
-padding: 10px;
-margin: auto;
-
-
+.brand{
+    font-size:18px;
+    margin-left:20px;
+}
+.footer {
+    margin: auto;
+    height: 50px;
+    background-color: #868a82;
+    padding: 10px;
+    margin: auto;
 }
 
-.footer img{ width: 30px;
-height: 30px;
-}
-.footer a{text-decoration: none;
-color: white;
+    .footer img {
+        width: 30px;
+        height: 30px;
+    }
 
-}
-.button{
+    .footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+.button {
     font-size: 20px;
-padding: 10px;
+    padding: 10px;
 }
 
-.interbtn{position: absolute;
-font-size: 25px;
-text-align: left;
-padding-left: 20px;
-padding-top: 20px;
-text-decoration: none;
-color: rgb(155, 35, 35)
+.interbtn {
+    position: absolute;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: rgb(155, 35, 35)
 }
 
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -44,11 +56,11 @@ ul{
     background-color: #868a82;
 }
 
-li{
+li {
     float: right;
 }
 
-    li a{
+    li a {
         display: block;
         color: white;
         text-align: center;
@@ -59,65 +71,125 @@ li{
         li a:hover {
             background-color: #cac7c7;
         }
-        .originalPic{            
-            width: 100%;            
-        }
-        #orginal{
-            height: 350px !important;
-            background-image: url('../Images/farzaslider-final1.jpg');
-            background-size: cover;
-            
-        }
-        .menu{ direction: rtl;
-            color: rgb(105, 27, 27);
 
-        }
+.originalPic {
+    width: 100%;
+}
+
+#orginal {
+    height: 350px !important;
+    background-image: url('../Images/farzaslider-final1.jpg');
+    background-size: cover;
+}
+
+.menu {
+    direction: rtl;
+    color: rgb(105, 27, 27);
+}
 
 
 
-.footer{font-size: 17px;
-    border: 1px solid rgb(105, 27, 27);}
+.footer {
+    font-size: 17px;
+    border: 1px solid rgb(105, 27, 27);
+}
 
-    .tazetari{text-align: center;
-    margin:0;
-margin: auto;
-width: 50%;
-position: absolute;
-padding: 0;
-left: 0;
-right: 0;}
+.tazetari {
+    text-align: center;
+    margin: 0;
+    margin: auto;
+    width: 50%;
+    position: absolute;
+    padding: 0;
+    left: 0;
+    right: 0;
+}
 
-   .taze-list{list-style-type: none;
-        margin-top: 20px;
-        padding: 20px;
-        text-align: center;
-        background-color: lightgray;
-        height: 300px;
-        text-align: center;
-        margin: auto;}
-    .taze-item{width: 150px;
-        padding: 25px;
-        display: inline-block;
-        margin: auto;
-        }
-    .matn{text-align: justify;}
-    .video{background-color: lightgrey;
-        margin-top: 0;
-        height: 400px;
+.taze-list {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
 
+.taze-item {
+    width: 150px;
+    padding: 25px;
+    display: inline-block;
+    margin: auto;
+}
+
+.matn {
+    text-align: justify;
+}
+
+.video {
+    background-color: lightgrey;
+    margin-top: 0;
+    height: 400px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 800px;
+}
+
+input, select, textarea {
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 10px;
+}
+
+.btn1 {
+    background-color: green;
+    color: #fff;
+}
+
+/*tab*/
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-family: IranSans;
+    font-size: 17px;
+    width: 25%;
+}
+
+    .tablink:hover {
+        background-color: #777;
     }
-    *{
-        box-sizing: border-box;
-        }
-        .container{
-        width: 800px;
-        }
-        input,select,textarea{
-        width: 100%;
-        margin: 0 0 10px 0;
-        padding: 10px;
-        }
-        .btn1{
-        background-color: green;
-        color: #fff;
-        }
+
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#Home {
+    background-color: #ea5050;
+}
+
+#News {
+    background-color: #41ac40;
+}
+
+#Contact {
+    background-color: #394eb1;
+}
+
+#About {
+    background-color: #ed9f25
+}

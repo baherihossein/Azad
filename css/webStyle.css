@@ -7,8 +7,7 @@ body{
     font-family:IranSans;
     font-size: 15px;
 }
-.content {
-    margin: auto;
+
     border-radius: 2px;
 }
 .brand{
@@ -16,11 +15,10 @@ body{
     margin-left:20px;
 }
 .footer {
-    margin: auto;
+
     height: 50px;
     background-color: #868a82;
     padding: 10px;
-    margin: auto;
 }
 
     .footer img {
@@ -97,7 +95,6 @@ li {
 .tazetari {
     text-align: center;
     margin: 0;
-    margin: auto;
     width: 50%;
     position: absolute;
     padding: 0;
@@ -113,14 +110,12 @@ li {
     background-color: lightgray;
     height: 300px;
     text-align: center;
-    margin: auto;
 }
 
 .taze-item {
     width: 150px;
     padding: 25px;
     display: inline-block;
-    margin: auto;
 }
 
 .matn {
@@ -129,7 +124,7 @@ li {
 
 .video {
     background-color: lightgrey;
-    margin-top: 0;
+    margin-top: -20px;
     height: 400px;
 }
 
@@ -196,9 +191,27 @@ input, select, textarea {
 .video h2{ color:white;
 padding: 20px;
 }
-.video{ margin: auto;
+.video{ 
 background-color: rgb(91, 146, 230);
 text-align: center;
 }
-
-
+.contact-form{padding: 20px;
+width: 50%;
+ }
+ .text-center{
+     text-align: center;
+ }
+ .conainer-contact{
+     background-color:#54bd9d;
+     margin-top: -20px;
+ }
+.text-center h1{padding: 20px;}
+.hoghogh{background-color: black;
+text-align: center;
+color: white;
+margin-top: -20px;
+}
+#baheri{color: orangered;
+    font-size: 20px;
+    text-decoration: none;
+}

@@ -193,3 +193,12 @@ input, select, textarea {
 #About {
     background-color: #ed9f25
 }
+.video h2{ color:white;
+padding: 20px;
+}
+.video{ margin: auto;
+background-color: rgb(91, 146, 230);
+text-align: center;
+}
+
+
